@@ -11,6 +11,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 button {
@@ -22,6 +23,11 @@ button {
 
 button:hover {
   opacity: 0.8;
+}
+
+input[type="checkbox"] {
+  background-color: #b3b3b3;
+  accent-color: #b3b3b3;
 }
 
 .side-buttons {
@@ -57,9 +63,10 @@ button:hover {
 
 .filter-container__list__item {
   list-style-type: none;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   word-wrap: break-word;
   text-wrap: balance;
+  display: flex;
 }
 
 .filter-container__list__item__checkbox {
